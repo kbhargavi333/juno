@@ -1,0 +1,53 @@
+
+/* .heading {
+    
+    position: relative;
+    text-align: center;
+
+} */
+
+
+.heading{
+    font-size: 28px;
+}
+.sidepaneldiv{
+    border-right: 1px #e4e4e4 solid;
+    
+    
+    
+   
+}
+
+
+
+.sidepanelelements{
+    color: #777676;
+    font-size: 16px;
+    font-family: Lettera Text LL;
+    font-weight: 500;
+    word-wrap: break-word  
+}
+
+.monitoringtab :hover {
+       color: #4643EE;
+}
+
+.Elonmusk{
+color: #050505;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 18px;
+ word-wrap: break-word
+}
+
+.Elonemail{
+color: #777676;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 18px;
+ word-wrap: break-word;
+ 
+}
+

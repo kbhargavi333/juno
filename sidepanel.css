@@ -1,0 +1,115 @@
+/* // Overview */
+.Overview{
+color: #777676;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+}
+---
+// Onboarding
+color: #777676;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Monitoring
+color: #4643EE;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Flagging
+color: #777676;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Source of Income
+color: #777676;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// UAR
+color: #777676;
+ font-size: 16px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Elon Musk
+color: #050505;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// elon@twitter.com
+color: #777676;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 18px;
+ word-wrap: break-word
+
+
+ /* sectional tab css */
+ // Pending
+color: #4643EE;
+font-size: 14px;
+font-family: Lettera Text LL;
+font-weight: 500;
+line-height: 18px;
+word-wrap: break-word
+---
+// Completed
+color: #ADADAD;
+font-size: 14px;
+font-family: Lettera Text LL;
+font-weight: 500;
+line-height: 18px;
+word-wrap: break-word  
+
+/* search */
+// Search
+color: #ADADAD;
+ font-size: 14px;
+ font-family: Inter;
+ font-weight: 500;
+ line-height: 18px;
+ word-wrap: break-word
+
+/* trigger reason */
+// Trigger reason
+color: #777676;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 14px;
+ word-wrap: break-word
+
+
+ /* risk level */
+ // Risk level
+color: #777676;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 14px;
+ word-wrap: break-word
+
+
+ /* close account */
+ // Close account
+color: #D13B3B;
+ font-size: 14px;
+ font-family: Lettera Text LL;
+ font-weight: 500;
+ line-height: 14px;
+ word-wrap: break-word

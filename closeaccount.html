@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+        
+    .closebutton {
+        color: #d13b3b ;
+        background-color: #f7a7a7 ;
+        border-color: #f7a7a7;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+    align-items: center; 
+    margin-left : 60%
+
+    }
+
+   
+
+.closebutton svg {
+    margin-right: 5px; /* Adjust this margin as needed */
+}
+    
+</style>
+
+<body>
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  
+
+  <!-- < Button trigger modal --> 
+  <button type="button" class="closebutton" data-toggle="modal" data-target="#myModal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+      </svg> Close account
+  </button>
+
+
+
+ 
+      
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="closeaccModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="closeaccModalLabel">Close Account</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Your form elements here -->
+                    <!-- Example fields -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div> 
+                    <div class="form-group">
+                        Want to file UAR 
+                        <span style="margin-left: 20%;">
+                        <input type="radio" name="y/n">  Yes 
+                        <input style="margin-left: 20px;" type="radio" name="y/n">  No
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reason">Reason</label>
+                        <select class="form-control" id="reason">
+                            <option value="option1"></option>
+                            <option value="option1">Reason 1</option>
+                            <option value="option2">Reason 2</option>
+                            <option value="option3">Reason 3</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reason">Note</label>
+                       <p> <textarea id="reason" name="hi" rows="4" cols="75">
+                    
+
+                        </textarea>
+                    </p>
+                    </div>
+
+                    
+                   
+                    <!-- End of your form -->
+                </div>
+                <div class="modal-footer" style="display: flex;  justify-items: flex-start;">
+                    <div class="form-group form-check">
+                        <input type="radio" class="form-check-input" id="chargeFee">
+                        <label class="form-check-label" for="chargeFee">Charge closure fee</label>
+                    </div>
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    <button type="button" style="margin-left: 300px;" class="btn btn-secondary">Close Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+        
+    .btn {
+        color: #d13b3b ;
+        background-color: #f7a7a7 ;
+        border-color: #f7a7a7;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+    align-items: center; 
+    margin-left : 60%
+
+    }
+
+   
+
+.btn svg {
+    margin-right: 5px; /* Adjust this margin as needed */
+}
+    
+</style>
+
+<body>
+    < Button trigger modal -->
+    <!-- <button type="button" class="btn" data-toggle="modal" data-target="#closeaccModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg> Close account
+    </button>
+
+    < Modal -->
+    <!-- <div class="modal fade" id="closeaccModal" tabindex="-1" role="dialog" aria-labelledby="closeaccModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="closeaccModalLabel">Close account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"> -->
+                    <!-- Your form elements here -->
+                    <!-- Example fields -->
+                    <!-- <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Reason</label>
+                        <textarea class="form-control" id="reason" rows="3" placeholder="Enter reason"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="chargeFee">
+                        <label class="form-check-label" for="chargeFee">Charge closure fee</label>
+                    </div> -->
+                    <!-- End of your form -->
+                <!-- </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Close Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+        
+    .btn {
+        color: #d13b3b ;
+        background-color: #f7a7a7 ;
+        border-color: #f7a7a7;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+    align-items: center; 
+    margin-left : 60%
+
+    }
+
+   
+
+.btn svg {
+    margin-right: 5px; /* Adjust this margin as needed */
+}
+    
+</style>
+
+<body>
+    <button class= "btn"  data-toggle="modal-dialog-centered" data-target="closeacc" >
+       
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg> Close account
+        </button>
+
+
+
+        <!-- Vertically centered modal -->
+<!-- <div class="modal-dialog modal-dialog-centered">
+    <div  id="closeacc" style="width: 100%; height: 100%; padding: 20px; background: white; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 27px; display: inline-flex">
+        <div style="justify-content: flex-start; align-items: center; gap: 248px; display: inline-flex">
+            <div style="color: black; font-size: 24px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Close account</div>
+            <div style="width: 24px; height: 24px; position: relative">
+                <div style="width: 14px; height: 14px; left: 5px; top: 5px; position: absolute; background: #050505"></div>
+                <div style="width: 14px; height: 14px; left: 5px; top: 5px; position: absolute; background: #050505"></div>
+            </div>
+        </div>
+        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: flex">
+                <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 18px; word-wrap: break-word">Email</div>
+                <div style="width: 434px; height: 36px; position: relative; border-radius: 4px; border: 1px #E4E4E4 solid"></div>
+            </div>
+            <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 36px; display: inline-flex">
+                <div style="color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 18px; word-wrap: break-word">Want to file UAR</div>
+                <div style="justify-content: flex-end; align-items: center; gap: 20px; display: flex">
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                        <div style="width: 14px; height: 14px; position: relative; border-radius: 29px; border: 0.70px #C9C8C8 solid"></div>
+                        <div style="color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 14px; word-wrap: break-word">Yes</div>
+                    </div>
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                        <div style="width: 14px; height: 14px; position: relative; border-radius: 29px; border: 0.70px #C9C8C8 solid"></div>
+                        <div style="color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 14px; word-wrap: break-word">No</div>
+                    </div>
+                </div>
+            </div>
+            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: flex">
+                <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 18px; word-wrap: break-word">Reason</div>
+                <div style="width: 434px; height: 36px; padding-top: 10px; padding-bottom: 10px; padding-left: 408px; padding-right: 10px; border-radius: 4px; overflow: hidden; border: 1px #E4E4E4 solid; justify-content: flex-end; align-items: center; display: inline-flex">
+                    <div style="width: 16px; height: 16px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                        <div style="width: 9.33px; height: 5.33px; background: #ADADAD"></div>
+                    </div>
+                </div>
+            </div>
+            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: flex">
+                <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 18px; word-wrap: break-word">Note</div>
+                <div style="width: 434px; height: 65px; position: relative; border-radius: 4px; border: 1px #E4E4E4 solid"></div>
+            </div>
+        </div>
+        <div style="justify-content: flex-start; align-items: center; gap: 78px; display: inline-flex">
+            <div style="justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="width: 14px; height: 14px; position: relative; border-radius: 29px; border: 0.70px #C9C8C8 solid"></div>
+                <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 400; line-height: 14px; word-wrap: break-word">Charge closure fee</div>
+            </div>
+            <div style="height: 48px; padding: 16px; background: #E4E4E4; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div style="text-align: center; color: #ADADAD; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">Close Account</div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html> --> -->

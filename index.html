@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Webpages</title>
+    <link rel="stylesheet" href="sidepanelstyle.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Style to arrange content side by side */
+        .container {
+            display: flex;
+            margin: 0;
+            margin-right: 0;
+        }
+        .page {
+            flex: 1;
+            /* padding: 10px; */
+            /* border: 1px solid #ccc; */
+            margin: 0px;
+
+        }
+        .rightside{
+               padding: 30px;
+            
+        }
+
+        .closebutton {
+            color: #d13b3b ;
+            background-color: #f7a7a7 ;
+            border-color: #f7a7a7;
+            border-radius: 8px;
+            padding: 10px 20px 10px 20px;
+            display: flex;
+        align-items: center; 
+        margin-left : 60%
+
+        }
+
+    
+
+    .closebutton svg {
+        margin-right: 5px; /* Adjust this margin as needed */
+    } 
+
+.cls :hover{
+    background-color: #4643EE;
+
+}
+
+
+    body {
+        margin-left: 0px;
+    }
+     
+
+    .sidepaneldiv{
+        margin-left: 0px;
+        padding-left: 0%;
+    }
+
+    @media screen and (max-width: 600px) and (max-height:600px){
+        .container{
+            height: 80vh;
+        }
+       
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Content from First Webpage -->
+        <div class="page ">
+            
+
+
+
+
+            <div class="sidepaneldiv" style=" margin-left: 0%;    height: 98vh; padding-top: 48px; padding-bottom: 32px;  padding-right: 32px; background-color: white;  flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                <div style="align-self: stretch; height: 405.60px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 48px; display: flex">
+                <img style="width: 194px; height: 77.60px" src="logo.png" />
+                <div  class="sidepanelelements"     style="align-self: stretch; height: 280px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                <div >Overview</div>
+                </div>
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                <div >Onboarding</div>
+                </div>
+                <div  class="monitoringtab" style="align-self: auto; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; background: rgba(70, 67, 238, 0.10);  position: contain; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                    
+                    <div >Monitoring</div>
+                </div>
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                <div >Flagging</div>
+                </div>
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                <div>Source of Income</div>
+                </div>
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; border-radius: 7px; overflow: hidden; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                <div >UAR</div>
+                </div>
+                </div>
+                </div>
+                <div class="elon" style="width: 204px;   justify-content: flex-start; align-items: center; gap: 80px; display: inline-flex">
+                <div style="justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+                <div style="width: 38px; height: 38px; justify-content: center; align-items: center; display: flex">
+                <img style="width: 38px; height: 38px; border-radius: 9999px; border: 1.58px white solid" src="data:image/jpeg;base64,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" />
+                </div>
+                <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 2px; display: inline-flex">
+                <div class="Elonmusk">Elon Musk</div>
+                <div class="Elonemail">elon@twitter.com</div>
+                </div>
+                </div>
+                </div>
+                </div>
+        </div>
+
+        <!-- Content from Second Webpage -->
+        <div class="page">
+            <div class="rightside" style="width: 80vw; height: 70vh;">
+
+                <div style="color: #050505; font-size: 30px; font-family: 'Lettera Text LL'; font-weight: 500; word-wrap: break-word;">Monitoring</div>
+            <div style="width: 100%;  margin-top: 3%; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex;">
+                <div id="clickDiv" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex; cursor: pointer;">
+                    <div style="text-align: center; color: #4643EE; font-size: 14px; font-family: 'Lettera Text LL'; font-weight: 500; line-height: 18px; word-wrap: break-word;">Pending</div>
+                    <div style="width: 92px; height: 2px; background: #4643EE; border-radius: 100px;"></div>
+                  </div>
+                  
+                <!-- <div style="width: 92px; padding-bottom: 22px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 19px; display: inline-flex;">
+                    <div style="text-align: center; color: #ADADAD; font-size: 14px; font-family: 'Lettera Text LL'; font-weight: 500; line-height: 18px; word-wrap: break-word;">Completed</div>
+                </div> -->
+                <div id="clickableDiv" style="width: 92px; padding-bottom: 22px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 19px; display: inline-flex; cursor: pointer;">
+                    <div style="text-align: center; color: #ADADAD; font-size: 14px; font-family: 'Lettera Text LL'; font-weight: 500; line-height: 18px; word-wrap: break-word;">Completed</div>
+                  </div>
+                  
+                <!-- <button class= "btn" >
+                   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg> Close account</button> -->
+                      <div class="container" style="margin-top: 2px;">
+  
+                        <!-- Trigger the modal with a button -->
+                        
+                      
+                        <!-- < Button trigger modal --> 
+                        <button type="button" class="closebutton" data-toggle="modal" data-target="#myModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg> Close account
+                        </button>
+                      
+                      
+                      
+                       
+                            
+                      
+                      
+                          <!-- Modal -->
+                          <div  class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="closeaccModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <h1 class="modal-title" id="closeaccModalLabel">Close Account</h1>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                          </button>
+                                      </div>
+                                      <div class="modal-body">
+                                          <!-- Your form elements here -->
+                                          <!-- Example fields -->
+                                          <div class="form-group">
+                                              <label for="email">Email</label>
+                                              <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                          </div> 
+                                          <div class="form-group">
+                                              Want to file UAR 
+                                              <span style="margin-left: 20%;">
+                                              <input type="radio" name="y/n">  Yes 
+                                              <input style="margin-left: 20px;" type="radio" name="y/n">  No
+                                              </span>
+                                          </div>
+                      
+                                          <div class="form-group">
+                                              <label for="reason">Reason</label>
+                                              <select class="form-control" id="reason">
+                                                  <option value="option1"></option>
+                                                  <option value="option1">Flagging Logics Triggered</option>
+                                                  <option value="option2">Reason 2</option>
+                                                  <option value="option3">Reason 3</option>
+                                                  <!-- Add more options as needed -->
+                                              </select>
+                                          </div>
+                      
+                                          <div class="form-group">
+                                              <label for="reason">Note</label>
+                                             <p> <textarea id="reason" name="hi" rows="4" cols="75">
+                                          
+                      
+                                              </textarea>
+                                          </p>
+                                          </div>
+                      
+                                          
+                                         
+                                          <!-- End of your form -->
+                                      </div>
+                                      <div class="modal-footer" style="display: flex;  justify-items: flex-start;">
+                                          <div class="form-group form-check">
+                                              <input type="radio" class="form-check-input" id="chargeFee">
+                                              <label class="form-check-label" for="chargeFee">Charge closure fee</label>
+                                          </div>
+                                          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                          <button type="button" style="margin-left: 300px; border-radius: 8px;" class="cls btn btn-secondary">Close Account</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                
+            </div>
+            
+            
+            <hr style="color: #e4e4e4; "> 
+           
+            <div style="display: flex; margin-bottom: 1px;" >
+                <div style="margin-top: 0.5%; width: 40%; height: 100%; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 5px; background: white; border-radius: 9px; border: 1px #E4E4E4 solid; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                    <div style="width: 18px; height: 18px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </div>
+                    <div style="display: flex; flex: 1; align-items: center; gap: 8px;">
+                        <div style="color: #ADADAD; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word;">Search</div>
+                        <input type="text" style="border: none; outline: none; font-family: Inter; flex: 1;">
+                        <div style="padding: 0 8px; cursor: pointer;"></div>
+                    </div>
+                </div>
+            <div id="container" style="position: relative;">
+                <!-- Trigger reason -->
+                 <div id="triggerReason"  style="cursor: pointer; background-attachment: fixed; margin-top: 2%; margin-left:15px;  width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div style="margin-top: 2%; margin-left: 15px; width: 142px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: #F5F5F5; border-radius: 7px; border: 1px #E4E4E4 solid; display: inline-flex; align-items: center; gap: 6px;">
+                        <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 14px; word-wrap: break-word;">Trigger reason</div>
+                        <div style="width: 16px; height: 16px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div> 
+
+                
+
+                
+               
+            
+                 <!-- Dropdown content  -->
+                <div id="dropdownContent" style="position: absolute; top: calc(100% + 5px); left: 0; z-index: 100; background: white; border-radius: 4px; border: 1px #E4E4E4 solid; display: none; width: 160px; ">
+                    <div style="padding: 8px;">
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word; margin-bottom: 6px;">Hard flag</div>
+                        <div style="color: #050505; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word; background: #EAEAFE; border-radius: 4px; padding: 6px; margin-bottom: 6px;">Temp flag</div>
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word; margin-bottom: 6px;">Restricted unflag</div>
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word; margin-bottom: 6px;">Un flag</div>
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word;">Reviewed</div>
+                    </div>
+                </div>
+            </div>  
+
+<!-- 
+            <div id="triggerReason"  style="cursor: pointer; background-attachment: fixed; margin-top: 2%; margin-left:15px;  width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                <div style="margin-top: 3px; margin-left: 15px; width: 142px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: #F5F5F5; border-radius: 7px; border: 1px #E4E4E4 solid; display: inline-flex; align-items: center; gap: 6px;">
+                    <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 14px; word-wrap: break-word;">Trigger reason</div>
+                    <div style="width: 16px; height: 16px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div> -->
+            
+
+
+
+
+
+            <!-- trigger Reason and dropdowm -->
+            <!-- <div id="container" style="position: relative;"> -->
+               <!-- trigger reason -->
+               <!-- <div  id="triggerReason"  style=" cursor: pointer; background-attachment: fixed; margin-top: 2%; margin-left:15px;  width: 100%; height: 100%; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                <div style="width: 142px; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; background: #F5F5F5; border-radius: 7px; justify-content: flex-start; align-items: center; gap: 6px; display: flex">
+                    <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 14px; word-wrap: break-word">Trigger reason</div>
+                    <div style="width: 16px; height: 16px; position: relative" id="dropdownIcon">
+                        **down arrow -->
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                          </svg> -->
+                
+                        <!-- <div style="width: 9.33px; height: 5.33px; left: 3.33px; top: 5.33px; position: absolute; background: #777676"></div> -->
+                    <!-- </div>
+                </div>
+            </div>  --> 
+       
+              <!-- triggerReason dropdown content -->
+            <!-- <div id="dropdownContent" style="  position: absolute; top: calc(100% + 5px); left: 0; z-index: 100;  background: white;  border-radius: 4px; border: 1px #E4E4E4 solid;   display: none; width: 100%; height: 100%; padding: 6px;  flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+                <div style="width: 100%; height: 100%; padding: 6px; background: white;  border-radius: 4px; border: 1px #E4E4E4 solid; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: inline-flex">
+                    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; border-radius: 4px; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word">Hard flag</div>
+                    </div>
+                    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; background: #EAEAFE; border-radius: 4px; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="color: #050505; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word">Temp flag</div>
+                    </div>
+                    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; border-radius: 4px; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word">Restricted unflag</div>
+                    </div>
+                    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; border-radius: 4px; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word">Un flag</div>
+                    </div>
+                    <div style="align-self: stretch; padding-left: 12px; padding-right: 12px; padding-top: 6px; padding-bottom: 6px; border-radius: 4px; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="color: #777676; font-size: 12px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word">Reviewed</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+              
+            <!-- risk level -->
+            <div style="margin-left: 15px; width: 108px; padding-left: 12px; padding-right: 12px; margin-bottom: 27px; background:  #F5F5F5; margin-top: 10px;  padding-bottom: 7px;  padding-top: 7px; border-radius: 7px; border: 1px #E4E4E4 solid; display: inline-flex; align-items: center; gap: 6px;">
+                <div style="color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 14px; word-wrap: break-word;">Risk level</div>
+                <div style="width: 16px; height: 16px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+            </div>
+            
+            
+            </div>
+            
+
+
+            <!-- frame -->
+
+            <div style="height: auto; margin-top:0; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <div style="width: 255px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-top-left-radius: 12px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">User</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Sam Altman</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">samaltman123@gmail.com</div>
+                        </div>
+                        <!-- <div style="width: 18px; height: 18px; position: relative">
+                            <div style="width: 12.75px; height: 12.75px; left: 1.50px; top: 3.75px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 6px; height: 6px; left: 10.50px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 9.75px; height: 9.75px; left: 6.75px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                        </div> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="3" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="3" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                          
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Sameer Choubey</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">sameerchoubey123@gmail.com</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Adarsh Panikkar</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">adarsh@onjuno.com</div>
+                        </div>
+                        <!-- <div style="width: 18px; height: 18px; position: relative">
+                            <div style="width: 12.75px; height: 12.75px; left: 1.50px; top: 3.75px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 6px; height: 6px; left: 10.50px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 9.75px; height: 9.75px; left: 6.75px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                        </div> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Pratik Shetty</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">pratik3@gmail.com</div>
+                        </div>
+                        <!-- <div style="width: 18px; height: 18px; position: relative">
+                            <div style="width: 12.75px; height: 12.75px; left: 1.50px; top: 3.75px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 6px; height: 6px; left: 10.50px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                            <div style="width: 9.75px; height: 9.75px; left: 6.75px; top: 1.50px; position: absolute; background: #4643EE"></div>
+                        </div> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Elon Musk</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">elon@twitterceo.com</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-left: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: space-between; align-items: center; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Trina Kundu</div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">trina@onjuno.com</div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4643EE" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                            <path fill-rule="evenodd" stroke-width="1.5" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                          </svg>
+                          
+                    </div>
+                    
+                </div>
+                <div style="width: 149px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Risk level</div>
+                        </div>
+                        <div style="width: 28px; height: 18px; position: relative">
+                           
+                            <div style="width: 9px; height: 5.25px; left: 3.50px; top: 7.50px; position: absolute; color: #ADADAD">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                            </div>
+                            <div style="width: 9px; height: 5.25px; left: 4.50px; top: 0.25px; position: absolute; color: #080808">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#333333" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #88670F; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #88670F; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Medium</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #7D2424; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #7D2424; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">High</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #006540; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #006540; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Low</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #7D2424; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #7D2424; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">High</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #006540; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #006540; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Low</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 6px; display: inline-flex">
+                        <div style="width: 10px; height: 10px; background: #006540; border-radius: 9999px"></div>
+                        <div style="text-align: center; color: #006540; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Low</div>
+                    </div>
+                </div>
+                <div style="width: 164px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Trigger reason</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">IP Change</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">FIFO</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">IP Change</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">FIFO</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">FIFO</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: flex">
+                        <div style="text-align: center; color: #050505; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">FIFO</div>
+                    </div>
+                </div>
+                <div style="width: 155px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">In queue for</div>
+                        </div>
+                        <div style="width: 18px; height: 18px; position: relative">
+                            
+                            <div style="width: 9px; height: 5.25px; left: 3.50px; top: 7.50px; position: absolute; color: #ADADAD">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                            </div>
+                            <div style="width: 9px; height: 5.25px; left: 4.50px; top: 0.25px; position: absolute; color: #080808">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#333333" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">4 days</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">4 days</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">5 days</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">5 days</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">5 days</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">5 days</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Date added on</div>
+                        </div>
+                        <div style="width: 18px; height: 18px; position: relative">
+                            <div style="width: 9px; height: 5.25px; left: 3.50px; top: 7.50px; position: absolute; color: #ADADAD">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                            </div>
+                            <div style="width: 9px; height: 5.25px; left: 4.50px; top: 0.25px; position: absolute; color: #080808">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#333333" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #777676; font-size: 14px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Oct, 2023</div>
+                    </div>
+                </div>
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <div style="align-self: stretch; height: 48px; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #F5F5F5; border-top-right-radius: 12px; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 11px; display: inline-flex">
+                        <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
+                            <div style="color: #050505; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Previously reviewed</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Yes </div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">23 Aug, 2023</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">No</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">No</div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Yes </div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Sep, 2023</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Yes </div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Sep, 2023</div>
+                        </div>
+                    </div>
+                    <div style="align-self: stretch; height: 72px; padding-top: 16px; padding-bottom: 16px; padding-left: 24px; padding-right: 18px; border-right: 1px #E4E4E4 solid; border-bottom: 1px #E4E4E4 solid; justify-content: flex-start; align-items: center; gap: 12px; display: inline-flex">
+                        <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 6px; display: inline-flex">
+                            <div style="text-align: center; color: #050505; font-size: 16px; font-family: Lettera Text LL; font-weight: 500; line-height: 18px; word-wrap: break-word">Yes </div>
+                            <div style="text-align: center; color: #777676; font-size: 12px; font-family: Lettera Text LL; font-weight: 500; line-height: 16px; word-wrap: break-word">12 Sep, 2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            
+            
+            </div>
+                
+            <script src="triggerReason.js"></script>
+        </div>
+    </div>
+</body>
+</html>
